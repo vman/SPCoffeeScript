@@ -1,6 +1,8 @@
 $ ->
 	if location.href.indexOf("Home.aspx") isnt -1
-	
+		
+		ExecuteOrDelayUntilScriptLoaded loadCOM, "sp.js"
+
 		#Call the initCoffee function with passing only one parametre.
 		initCoffee("vardhaman")
 	
@@ -20,3 +22,17 @@ initCoffee = (firstname, lastname="deshpande") ->
 #When this function is called, alert the current web server relavtive url.
 linkClicked = (link) ->
 	alert _spPageContextInfo.webServerRelativeUrl
+
+web = null;
+
+loadCOM = () ->
+	context = new SP.ClientContext.get_current()
+	web = context.get_web()
+	context.load web
+	context.executeQueryAsync Success, Failure
+
+Success = (sender,args) ->
+	alert web.get_title()
+
+Failure = (sender, args) ->
+	alert "Failed. #{args.get_message()}"
