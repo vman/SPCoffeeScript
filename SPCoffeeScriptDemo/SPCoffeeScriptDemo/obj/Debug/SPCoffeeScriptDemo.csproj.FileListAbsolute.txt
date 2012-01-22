@@ -1,0 +1,5 @@
+C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\bin\Debug\SPCoffeeScriptDemo.dll
+C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\bin\Debug\SPCoffeeScriptDemo.pdb
+C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\SPCoffeeScriptDemo.dll
+C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\SPCoffeeScriptDemo.pdb

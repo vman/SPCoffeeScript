@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="0d3c9668-25f8-4ad5-a68f-9a66cd313092" SharePointProductVersion="14.0">
+  <Assemblies>
+    <Assembly Location="SPCoffeeScriptDemo.dll" DeploymentTarget="GlobalAssemblyCache" />
+  </Assemblies>
+  <FeatureManifests>
+    <FeatureManifest Location="SPCoffeeScriptDemo_SPCofeeScriptDemo Web Feature\Feature.xml" />
+  </FeatureManifests>
+</Solution>

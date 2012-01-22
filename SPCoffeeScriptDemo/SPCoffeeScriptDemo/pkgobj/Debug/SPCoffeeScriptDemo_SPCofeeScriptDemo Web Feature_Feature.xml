@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="cf56ca95-1de8-4b11-84b1-3db4253d816e" Scope="Web" Title="SPCoffeeScriptDemo Feature1">
+  <ElementManifests>
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\MyScript.coffee" />
+    <ElementFile Location="Scripts\MyScript.js" />
+    <ElementFile Location="Scripts\jquery-1.7.1.min.js" />
+    <ElementManifest Location="ScriptDelegates\Elements.xml" />
+  </ElementManifests>
+</Feature>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+  <File Path="Scripts\MyScript.coffee" Url="Scripts/MyScript.coffee" Type="GhostableInLibrary" />
+  <File Path="Scripts\MyScript.js" Url="Scripts/MyScript.js" Type="GhostableInLibrary" />
+  <File Path="Scripts\jquery-1.7.1.min.js" Url="Scripts/jquery-1.7.1.min.js" Type="GhostableInLibrary" />
+</Module>
+</Elements>
