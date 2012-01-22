@@ -3,3 +3,8 @@ C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\bin\Debug\SPCoffeeScriptDemo.pd
 C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\ResolveAssemblyReference.cache
 C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\SPCoffeeScriptDemo.dll
 C:\Sandbox\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\SPCoffeeScriptDemo.pdb
+C:\Users\Administrator\SPCoffeeScript\SPCoffeeScriptDemo\SPCoffeeScriptDemo\bin\Debug\SPCoffeeScriptDemo.dll
+C:\Users\Administrator\SPCoffeeScript\SPCoffeeScriptDemo\SPCoffeeScriptDemo\bin\Debug\SPCoffeeScriptDemo.pdb
+C:\Users\Administrator\SPCoffeeScript\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\SPCoffeeScript\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\SPCoffeeScriptDemo.dll
+C:\Users\Administrator\SPCoffeeScript\SPCoffeeScriptDemo\SPCoffeeScriptDemo\obj\Debug\SPCoffeeScriptDemo.pdb

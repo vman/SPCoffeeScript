@@ -1,15 +1,25 @@
 (function() {
-  var initCoffee;
+  var initCoffee, linkClicked;
 
-  $(document).ready(function() {
-    if (location.href.indexOf("Home.aspx") !== -1) return initCoffee("vardhaman");
+  $(function() {
+    var myLink;
+    if (location.href.indexOf("Home.aspx") !== -1) {
+      initCoffee("vardhaman");
+      myLink = $("<a id='cfLink' href='#'>Click Me!</a>");
+      myLink.click(function() {
+        return linkClicked(this);
+      });
+      return $("#s4-ribbonrow").hide().after(myLink);
+    }
   });
 
   initCoffee = function(firstname, lastname) {
-    var str;
     if (lastname == null) lastname = "deshpande";
-    str = "Hi " + firstname + " " + lastname;
-    return alert(str);
+    return alert("Hi " + firstname + " " + lastname + "! Welcome to CoffeeScript Demo on SharePoint");
+  };
+
+  linkClicked = function(link) {
+    return alert(_spPageContextInfo.webServerRelativeUrl);
   };
 
 }).call(this);
