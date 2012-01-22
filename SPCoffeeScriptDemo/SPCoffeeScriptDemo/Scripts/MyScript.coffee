@@ -1,6 +1,7 @@
 $ ->
 	if location.href.indexOf("Home.aspx") isnt -1
 		
+		#Load the client object model only if the sp.js script is loaded on this page.
 		ExecuteOrDelayUntilScriptLoaded loadCOM, "sp.js"
 
 		#Call the initCoffee function with passing only one parametre.
@@ -35,4 +36,4 @@ Success = (sender,args) ->
 	alert web.get_title()
 
 Failure = (sender, args) ->
-	alert "Failed. #{args.get_message()}"
+	alert "Failed. #{args.get_message()} \n #{args.get_stackTrace()}"

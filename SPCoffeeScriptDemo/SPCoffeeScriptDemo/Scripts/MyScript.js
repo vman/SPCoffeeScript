@@ -38,7 +38,7 @@
   };
 
   Failure = function(sender, args) {
-    return alert("Failed. " + (args.get_message()));
+    return alert("Failed. " + (args.get_message()) + " \n " + (args.get_stackTrace()));
   };
 
 }).call(this);
