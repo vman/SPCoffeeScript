@@ -6,10 +6,8 @@
   });
 
   initCoffee = function(firstname, lastname) {
-    var str;
     if (lastname == null) lastname = "deshpande";
-    str = "Hi " + firstname + " " + lastname;
-    return alert(str);
+    return alert("Hi " + firstname + " " + lastname + "! Welcome to CoffeeScript Demo on SharePoint");
   };
 
 }).call(this);

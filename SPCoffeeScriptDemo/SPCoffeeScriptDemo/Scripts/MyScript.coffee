@@ -5,5 +5,4 @@ $(document).ready ->
 
 
 initCoffee = (firstname, lastname="deshpande") ->
-	str = "Hi #{firstname} #{lastname}"
-	alert str
+	alert "Hi #{firstname} #{lastname}! Welcome to CoffeeScript Demo on SharePoint"
