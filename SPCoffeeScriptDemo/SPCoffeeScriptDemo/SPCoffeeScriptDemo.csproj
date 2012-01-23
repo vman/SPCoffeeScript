@@ -44,6 +44,8 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
@@ -53,6 +55,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{3fa42111-7eab-468b-ab43-88d5922a1dad}</FeatureId>
+    </None>
     <None Include="Features\SPCofeeScriptDemo Web Feature\SPCofeeScriptDemo Web Feature.feature">
       <FeatureId>{bdfaf10f-f0ba-49e6-8920-4608b8d092b8}</FeatureId>
     </None>
@@ -76,6 +81,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </Content>
     <Content Include="Features\SPCofeeScriptDemo Web Feature\SPCofeeScriptDemo Web Feature.Template.xml">
       <DependentUpon>SPCofeeScriptDemo Web Feature.feature</DependentUpon>
     </Content>
