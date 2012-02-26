@@ -5,3 +5,5 @@ For now, You will need the Mindscape Web Workbench Visual Studio Extension which
 Right now, the solution contains some samples in which I demonstrate how CoffeeScript can used on the SharePoint platform
 
 jQuery 1.7.1 is included to demonstrate how CoffeeScript interacts with jQuery on SharePoint.
+
+Detailed blog post on this project: http://vrdmn.blogspot.in/2012/01/working-with-coffeescript-on-sharepoint.html
